@@ -124,7 +124,7 @@
     }      
     
     #spacer {
-        height: 63px;
+        height: 1em;
         padding-bottom: 15px;
     }
     #spacer .spacer-wrapper form input {
@@ -137,7 +137,6 @@
     margin-left: 7%;
     }
     
-    /* ONE BIG TWO SMALL */
     .obts-wrapper article {
         width: 80%;
     }   
