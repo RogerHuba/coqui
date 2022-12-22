@@ -1,15 +1,4 @@
-/* This CSS file is part of the HTML5 Jocca Full Template. 
-Footercode is separate from the rest, see index.html for the responsive footer templates.
-
-Tips:
-- For margin and other tags: top right bottom left (clockwise) 
-- http://www.w3schools.com/colors/colors_picker.asp
-- the HTML5 display-role reset for older browsers is already applied in reset.css */
-
-/* GLOBAL */
 body {
-    /* default white background color and default black text color.
-    Default font type and size for the site: */    
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
 }
@@ -22,12 +11,10 @@ a {
     color: inherit;
     transition: color .5s ease;
 }
-/* for <div span="strong"></div> */
 
 strong {
     font-weight: bold;
 }
-/* HEADER */
 
 header {
     position: relative;
@@ -35,35 +22,40 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 header h1 {
     padding: 18px 0 7px 19px;
     font-family: 'Montserrat', cursive;
     font-size: 45px;
     color: #999;
 }
+
 header p {
     padding: 0 0 7px 142px;
     font-size: 19px;
 }
-/* headerNAV MENU */
 
 nav {
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
 nav ul {
     list-style: none;
 }
+
 nav ul li {
     display: block;
     float: left;
     padding: 3px 15px;
 }
+
 nav ul li a {
     text-transform: uppercase;
     transition: all .25s ease;
 }
+
 nav ul li a:hover {
     color: #8080ff;
 }
@@ -83,7 +75,6 @@ nav ul li a:hover {
     width: 100%;
     display: none;
 }
-/* The three menu bars (home, portfolio, about) */
 
 #mobileMenu ul li {
     display: block;
@@ -95,6 +86,7 @@ nav ul li a:hover {
     text-transform: uppercase;
     border-bottom: 1px solid #cc5836;
 }
+
 .toggleMobile {
     display: none;
 }
@@ -106,14 +98,17 @@ nav ul li a:hover {
     margin: 19px 0 35px 0;
     background: #b3b3ff;
 }
+
 #spacer .spacer-wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 #spacer .spacer-wrapper form {
     float: right;
     margin: 23px 15px 25px 0;
 }
+
 #spacer .spacer-wrapper form input {
     padding: 7px 7px 7px 10px;
     width: 400px;
@@ -121,6 +116,7 @@ nav ul li a:hover {
     border-radius: 5px;
     font-size: 15px;
 }
+
 #spacer .spacer-wrapper form input[type=submit] {
     margin-left: 5px;
     width: auto;
@@ -132,7 +128,6 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* THREE-COLUMNS */
 #three-columns {
     position: relative;
     max-width: 1200px;
@@ -140,12 +135,10 @@ nav ul li a:hover {
 }
 
 #three-columns .three-columns-wrapper {
-    /* Get the three columns a bit more center. */    
     margin-left: -10px;
 }
 
 #three-columns .three-columns-wrapper article {
-    /* It helps to draw the columns and the spaces inbetween to figure out the right percentages. */    
     float: left;
     width: 30%;
     margin-left: 3%;
@@ -177,7 +170,6 @@ nav ul li a:hover {
 .obts-wrapper article {
     float: left;
     width: 43%;
-    /* margin-bottom: 10px; */
 }
 
 .obts-wrapper .ts {
@@ -192,7 +184,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* .row class resides in #obts .obts-wrapper .ts article */
+
 .row {
     position: relative;
     margin: 25px 0 0 60px;
@@ -256,7 +248,7 @@ nav ul li a:hover {
     }
 }
 
-/* BUTTONS */
+
 .button {
     padding: 7px 14px;
     border: 1px solid #c3532e;
