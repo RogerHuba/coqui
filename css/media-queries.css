@@ -67,57 +67,6 @@
         z-index: 999;
     }
 
-    .toggleMobile span.symbol-bar1, .toggleMobile span.symbol-bar2, .toggleMobile span.symbol-bar3 {
-        display: block;
-        position: absolute;
-        width: 40px;
-        height: 8px;
-        left: 0;
-        background: #eda28c;
-        -webkit-transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-        transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-    }
-
-    .toggleMobile span.symbol-bar1 {
-        top: 0;
-    }
-
-    .toggleMobile span.symbol-bar2 {
-        top: 14px;
-    }
-
-    .toggleMobile span.symbol-bar3 {
-        top: 28px;
-    }
-
-    .toggleMobile.active span.symbol-bar1 {
-        /* when .toggleMobile gets active in script.js */
-        top: 14px;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        -webkit-transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-        transition: all 0.5s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-        }
-
-    .toggleMobile.active span.symbol-bar2 {
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        -webkit-transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-                transition: all 0.5s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-    }
-
-    .toggleMobile.active span.symbol-bar3 {
-        opacity: 0;
-        -webkit-transition: opacity 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-        transition: opacity 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
-    }
-
     #mobileMenu {
         display: block;
         z-index: 99;
