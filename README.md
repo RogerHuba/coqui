@@ -1,24 +1,33 @@
-# An HTML5 Template
-A responsive template with vanilla CSS and JS and jQuery.
+# Project Coqui Bar
 
-[![html5 template](img/modal04-html5template.jpg)](http://joccaweb.nl/demos/html5template/)
+## Authors
+Code-Fusion
+---
+### We are deployed on Netlify!
 
-Handy for comparing with for example Bootstrap CSS code and for creating a working layout for a site without for example Bootstrap. The layout is float-based.
+[project url here]
 
-Update 2018:<br>
-Maybe it's advisable to replace the floats with a flex-box layout. See the credits.
+---
+## Web Application
+***[Explain your app, should be at least a paragraph. What does it do? Why should I use? Sell your product!]***
 
-### The Goal
-To have an HTML5 template-site with a header, a main menu (and alternate menu), 
-a footer and two mid-sections. Responsive of course, through the use of media queries. 
+The web application consists of a frontend written in HTML, CSS,
+Bootstrap, and Django. The backend was written in Python.
 
-This template is inspired by www.lingulo.com and www.tutorialzine.com.
+An interface is provided to create new blog
+posts, view existing blog posts, edit existing blog posts, delete existing
+blog posts, and search by both keywords and usernames.
 
-### Credits
-- [Christoph Anastasiades' GitHub](https://github.com/ChristophAnastasiades/)
-- the [lingulo tutorial](http://www.lingulo.com/tutorials/css/how-to-build-a-html5-website-from-scratch)
-- The CSS reset: Eric Meyer, see reset.css.
-- Copyright free Clock and Paper Plane icon provided by [Flat Icon](http://www.flaticon.com/)
-- [TaniaRascia.com](https://www.taniarascia.com/), very insightful site for starting webdevelopers.
-- [Create an easy Flexbox grid](https://www.taniarascia.com/easiest-flex-grid-ever/)
-- [Complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+---
+
+## Tools Used
+PyCharm
+
+- Python
+- Django
+- Docker
+- MVC
+- Pytest
+- Venv
+
+---
